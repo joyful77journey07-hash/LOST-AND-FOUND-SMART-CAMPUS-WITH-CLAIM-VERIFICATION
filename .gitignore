@@ -1,0 +1,19 @@
+# dependencies & build output (recreated with npm install / npm run build)
+node_modules/
+frontend/dist/
+
+# Database and uploaded photos — kept PRIVATE, never pushed to GitHub.
+# Anyone who clones the repo gets a fresh empty DB (admin is auto-created) and can run `npm run seed` for demo data.
+backend/lostfound.db
+backend/*.db
+*.db-wal
+*.db-shm
+*.db-journal
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
